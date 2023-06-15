@@ -15,7 +15,7 @@
    --main-color: #182b42;
    --bg-color: #fff;
    --text-color: #0f0c27;
-   --hover:  #2768d9;
+   --hover: #2768d9;
    --big-font: 3.2rem;
    --medium-font: 1.8rem;
    --p-font: 0.941rem;
@@ -372,7 +372,7 @@
  .contact-button {
    width: 160px;
    cursor: pointer;
-   background:var(--main-color);
+   background: var(--main-color);
    color: #fff;
    justify-content: center;
    text-transform: uppercase;
@@ -396,10 +396,11 @@
    margin-bottom: 1.6rem;
    color: var(--text-color)
  }
+
  .footer-social {
-  flex-direction: row;
-  display: flex;
- 
+   flex-direction: row;
+   display: flex;
+
  }
 
  .footer-social a i {
@@ -415,10 +416,11 @@
    display: flex;
    justify-content: center;
    align-items: center;
-  
+
  }
- .footer-social a i:hover{
-  color: var(--hover);
+
+ .footer-social a i:hover {
+   color: var(--hover);
  }
 
  .copyright {
@@ -576,17 +578,18 @@
    width: 160px;
    border: none;
    border-radius: 12px;
-   background-color:var(--main-color);
+   background-color: var(--main-color);
    color: white;
    display: inline-flex;
    justify-content: center;
    align-items: center;
  }
+
  .github:hover {
-  background: var(--hover);
-}
+   background: var(--hover);
+ }
 
 
-.github div{
-  margin: 5px;
-}
+ .github div {
+   margin: 5px;
+ }
